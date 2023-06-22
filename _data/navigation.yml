@@ -1,9 +1,11 @@
 # main links
 main:
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Schedule"
+    url: /schedule/
   - title: "Weekly Labs"
     url: /assignments/
+  - title: "Blogs"
+    url: /blogs/
   - title: "About"
     url: /about/
   # - title: "Sample Collections"

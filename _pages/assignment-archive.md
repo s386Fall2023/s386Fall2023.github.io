@@ -1,9 +1,9 @@
 ---
 layout: collection
-title: "Assignments"
+title: "Weekly Labs"
 collection: assignments
 permalink: /assignments/
 author_profile: false
 header:
-  image: /assets/images/unsplash-9-2.jpg
+  image: /assets/images/pandas3-long.png
 ---

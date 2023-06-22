@@ -281,6 +281,12 @@ collections:
   assignments:
     output: true
     permalink: /:collection/:path/
+  schedule:
+    output: true
+    permalink: /:collection/:path/
+  blogs:
+    output: true
+    permalink: /:collection/:path/
   
 
 # Defaults
