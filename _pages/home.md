@@ -9,28 +9,28 @@ header:
   #  - label: "<i class='fas fa-download'></i> Install now"
   #    url: "/docs/quick-start-guide/"
 excerpt: >
-  A class for exploring the data science process and data science tools.
+  A class in the Statistics Department at Brigham Young University for learning about the data science process and its tools. 
 feature_row:
   - image_path: /assets/images/cactusocean.png
     alt: "schedule"
     title: "Schedule"
-    excerpt: "Tentative schedule for the Fall 2023 semester along with daily assignments."
+    excerpt: "Target schedule for the Tuesday/Thursday class along with daily assignments."
     url: "/schedule/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_class: "btn--info"
+    btn_label: "Go to schedule page"
   - image_path: /assets/images/pandas.png
     alt: "labs"
     title: "Weekly Labs"
     excerpt: "Weekly labs designed to help practice the skills we are learning in class."
     url: "/assignments/"
-    btn_class: "btn--primary"
-    btn_label: "Go to Labs page"
+    btn_class: "btn--info"
+    btn_label: "Go to labs page"
   - image_path: /assets/images/python.png
     alt: "blogs"
-    title: "Class Member Blogs"
-    excerpt: "Checkout the blogs of our class members"
+    title: "Class Deliverables"
+    excerpt: "Students in the class write data science blogs and make dashboards."
     url: "/blogs/"
-    btn_class: "btn--primary"
+    btn_class: "btn--info"
     btn_label: "Learn more"      
 ---
 

@@ -1,7 +1,9 @@
 ---
-title: "Week 1: Git Lab"
+title: "Week 2: Git"
 layout: single
 author_profile: false
+classes: wide
+excerpt: Practice git skills
 ---
 
 Initializing a new repository:
