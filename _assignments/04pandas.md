@@ -6,18 +6,6 @@ classes: wide
 excerpt: pandas practice
 ---
 
-* When you accepted the assignment through GitHub Classroom, a hw-02 repository was created for you in the stat386-fall2023 organization.  Your homework repsitory is "github.com/stat386-fall2023/hw-02-\<your user name\>.com"
-* Do a `git clone` on this repository into a directory on your computer.
-* Once you've done the `git clone`, a directory called "hw-02-\<your-user-name\>" was created. Please do all your work inside this directory
-* You must complete the assignment in Python but you do not have to use Jupyter Notebooks.  
-* You should include your neat, well-documented code for each answer (in one file)
-* While you are working on this assignment, you should occasionally add and commit your work to your *local* git repository.
-* If you did the clone correctly (and have worked in the directory that was created from the clone), the remote connection should already be set up to link to your homework repository. You should occasionally push your work to the *remote* repository.  
-* Do NOT push any of the flight data files into your repo (Note: the `.gitignore` file should already be set up to exclude data files, but please make sure that this is the case).
-* **Your final answers need to be entered into the `hw-02-answers.txt` file.** 
-* To submit your assignment, ensure that your python code, .gitignore, and edited `hw-02-answers.txt` are in your *remote* homework repository on the *main* branch before the due date.  
-
-
 ## Part 1:  Flights Data 
 
 The data for part can be found in the [homework-data repository](https://github.com/esnt/Data).  

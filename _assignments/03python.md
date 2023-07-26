@@ -6,6 +6,9 @@ classes: wide
 excerpt: Basic python practice
 ---
 
+## 
+
+
 ## Python review questions.
 
 

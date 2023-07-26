@@ -37,3 +37,25 @@ feature_row:
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
+
+## Learning Outcomes
+
+**Data Wrangling.**
+Prepare a messy data set for exploratory data analysis, predictive modeling, and data visualization
+
+**Learn Software.**
+Use data science software (python) to perform data wrangling and to create data visualizations
+
+**Ethics.**
+Discuss ethical and legal implications surrounding privacy, data sharing, web scraping, and algorithmic decision making
+
+**Version Control.**
+Use version control tools, such as Git and GitHub, for organizing, sharing, and managing data science projects
+
+---
+
+*Identify Bias.* Identify ways in which data may be biased
+
+*Communication.*
+Communicate details of class projects in a data science blog and make a presentation about a data story
+
