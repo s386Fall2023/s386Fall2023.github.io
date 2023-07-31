@@ -12,7 +12,7 @@ The data for part can be found in the [homework-data repository](https://github.
 
 In the **Flights** directory there are several datasets containing information about fights
 departing from the New York City area during the year 2013.  Origin airports included are LaGuardia Airport (LGA), John F. Kennedy International Airport (JFK) and Newark Liberty International Airport (EWR).  See the file *data-info.md* or *data-info.pdf* for information about the variables
-in each of the datasets.  
+in each of the datasets.   
 
 Answer the questions below. 
 
@@ -40,17 +40,16 @@ Answer the questions below.
 11. How many planes have a missing date of manufacture?
 12. What is the oldest plane that flew from New York City airports in 2013?
 13. What is the correlation coefficient between the number of seats on a plane and the average distance it travelled?
-14. How many *days* had precipitation in the New York area in 2013?
+14. How many *days* had precipitation in the New York area in 2013? (That is, how many days had precipitation at at least one of the airports in the dataset at least one of the hours.)
 15. Using only days with precipitation greater than zero, what is the correlation between precipitation and average minutes of departure delay?
 
 ## Part 2: Practice with missing values, hierarchical indexing, and dropping variables
 
 Use the "happiness_small.csv" data that is included in this repository to answer these questions.  Use python to find the answers.
 
-
 16. Write a line of code that counts the number of missing values in every column. (Assume that the DataFrame is called `df`.)
 17. Process the data using the following steps (using "NA" specific functions)
-     * Drop all rows have missing values in *all* of the "life_expect", "freedom" and "generosity" columns
+     * Drop all rows that have missing values in *all* of the "life_expect", "freedom" and "generosity" columns
      * Fill in the remaining missing values in the "generosity" column using the mean of that column  
      * Fill in the remaining missing values in the "freedom" column using forward fill
      * Fill in the remaining missing values in the "life_expect" column with the value 70

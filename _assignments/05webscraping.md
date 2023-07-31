@@ -8,7 +8,7 @@ excerpt: Practice git skills
 ## \#1
 Using `requests`, `BeautifulSoup`, and `pandas`, create a DataFrame of the
 [140 Essential Action Movies](https://editorial.rottentomatoes.com/guide/140-essential-action-movies-to-watch-now/)
-as selected by Rotten Tomatoes. (*Note: I do not endorse or encourage watching movies on this list*)
+as selected by Rotten Tomatoes. (*Note: I do not necessarily endorse / encourage watching movies on this list*)
 
 Your DataFrame should have 140 rows and 4 or 5 colums:
 

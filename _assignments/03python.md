@@ -7,7 +7,7 @@ excerpt: Basic python practice
 ---
 
 ## 
-
+[LinkedIn Learning class)[https://github.com/LinkedInLearning/python-essential-training-4314028]
 
 ## Python review questions.
 
