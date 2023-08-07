@@ -1,19 +1,20 @@
 ---
-title: "Week 2: Git"
+title: "Week 2: Git & GitHub"
 layout: single
 author_profile: false
 classes: wide
-excerpt: Practice git skills
+excerpt: Practice git and GitHub skills
 ---
 
 ## Initializing a new repository:
-1. Create an empty folder called `new_project` in a sensible location on your computer. 
-2. Initialize the folder as a git repository.  
+1. Create an empty folder called `git_practice` in a sensible location on your computer. 
+2. Navigate into the new folder
+3. Initialize the folder as a git repository.  
     * *Remember that every project should be its own git repository.*
     * *Do NOT initialize root directories or parent folders relating to different projects*
-3. Verify that the .git folder is now in the directory.
+4. Verify that the .git folder is now in the directory.
 
-## Make your first commit
+## Making your first commit
 1. Check the git status 
 2. Create a new file called `file_1.txt` 
 3. Create another new file called `file_2.txt` 
@@ -24,7 +25,7 @@ excerpt: Practice git skills
 8. Check the git status 
 9. Check the git log 
 
-## More git practice
+## More git practicing
  1. Open `file_1.txt` in a text editor.   Add the following to the file:
     ```
     This is my first file.
@@ -38,46 +39,58 @@ excerpt: Practice git skills
 5. Make another commit with only the changes from the `file_2.txt` file.
 6. Check the git log
 
-## Readme file
-Even more committing practic    - (a) In the text editor, make more changes to both the `statistics.txt` and the `history.txt` files. For example, add a few more curriculum ideas. Save your changes.  
-    - (b) Add and commit the new changes.  This can be done however you want.  For example:  add all the changes to staging then commit.  Or, add and commit all the changes in one step.    
+## Creating a Readme file
+1. Create a file called "Readme.md"
+2. Write a description of the repository with a title
+3. Add and commit the readme file.
+    
+## Creating a .gitignore
+1. Create a .gitignore file with the following text "api-keys.txt" 
+2. Add and commit the .gitignore file
+3. Create a file called "api-keys.txt" 
+4. Check the status of the git repo
+5. Add some text to the "api-keys.txt" file.  Save the changes and check the status. 
+6. IMPORTANT:  For best results, add all files that you want to ignore to the .gitignore file **before** any of the ignored files get committed. Git will still track and push files that were committed before they were added to the .gitignore.  
 
-## .gitignore
-7. Ignore files
-    - (a) Create a .gitignore file with the following text "api-keys.txt" 
-    - (b) Add and commit the .gitignore file
-    - (c) Create a file called "api-keys.txt" 
-    - (d) Check the status of the git repo
+## Creating branches
+1. Make a new branch called "features"
+2. Switch to the "features" branch
+3. Look at the log and notice where HEAD is
+4. Create a new file called `new_features.txt`
+5. Add and commit the new file with the commit message "add empty file"
+6. Open `new_features.txt` in a text editor.   Add the following to the file:
+    ```
+    This file will have some new features.
+    ```
+7. Commit the changes to the current ("features") branch
 
-## Working with branches
-8. Branches
-    - (a) Make new branch called "music"
-    - (b) Switch to the "music" branch
-    - (c) Look at the log
-    - (d) Create a new file called `music.txt`
-    - (e) Add and commit the new file with the commit message "add empty music file"
-    - (f) Add some curriculum topic ideas to the `music.txt` file
-    - (g) Commit the changes to the current branch
-    - (h) Make another new branch off of the music branch HEAD called "orchestra"
-    - (i) Switch to the new branch
-    - (j) Create a new file (called whatever you want) and put some text in it
-    - (k) Save, add, and commit
-    - (l) Merge the orchestra branch into the music branch and then delete the orchestra branch
-    - (m) Check logs and statuses along the way
-    - (n) Merge all the changes into the main branch and then delete the music branch
+## Merging
+1. Switch back to the main branch.  Notice the "new_features.txt" file is no longer in the directory. 
+2. Open "file_1.txt" and add a line of text to the file.  
+3. Commit the changes.
+4. Merge the main branch with the "features" branch.  (Your default editor should open to ask you for a commit message.  Type your message and close the file.)
+5. Look at the git log
+
+## Handling Merge Conflict
+ 1. While on the main branch, open the `new_feature.txt` file and **replace** the old text with `No new features will be created.`  Save the changes. 
+ 2. Add and commit the changes.
+ 3. Switch back to the "features" branch.
+ 4. Open the "new_features.txt" file and **replace** the old text with `This file has some new text`. Save the file.
+ 5. Add and commit the changes on the features branch.
+ 6. Switch back to the main branch. 
+ 7. Merge the main branch with the "features" branch.
+ 8. You should get a merge conflict error and your default editor will open to have you resolve the conflict.
+ 9. Resolve the conflict and commit the merge.
+10. Delete the `features` branch.
  
-## Practice with remote repositories 
-10. Push repository to GitHub
-    - (a) Create a blank repository in your GitHub account called "CourseDevelopmentIdeas.  Do not initialize it with a readme file or a .gitignore file.
-    - (b) Copy the SSH url.
-    - (c) On your local machine, set the remote branch by typing `git remote add origin <ssh url>`
-    - (d) Push the local repo up to GitHub by typing `git push -u origin main`
-    - (e) Check that your GitHub repo was updated with your local work
-11. Save a file with your git commands
-    - (a) In the terminal type `history | grep "git " > git_commands.txt` (or if using a zsh terminal type `history 0 | grep "git" > git_commands.txt`)
-    - (b) You should now have a file called "git_commands.txt". Submit this file as part of homework 1
+## Pushing to GitHub
+1. Login to GitHub and create a blank repository  called "Git_practice.  Do not initialize it with a readme file or a .gitignore file.
+2. Copy the SSH url (if you set up ssh keys).
+3. In your local repository, set the remote branch by typing `git remote add origin <ssh url>`
+4. Push the local repo up to GitHub by typing `git push -u origin main`
+5. Check that your GitHub repo was updated with your local work
 
-## Merge conflicts
 
-## GitHub Pages
+
+
 
