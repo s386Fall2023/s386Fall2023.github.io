@@ -5,8 +5,11 @@ author_profile: false
 classes: wide
 excerpt: Practice git and GitHub skills
 ---
+Objective:  Familiarize yourself with essential Git and GitHub commands and workflows. Get hands-on practice with creating repositories, making commits, working with branches, and handling merge conflicts. 
 
-## Initializing a new repository:
+Instructions:  
+
+## Initializing a new repository
 1. Create an empty folder called `git_practice` in a sensible location on your computer. 
 2. Navigate into the new folder
 3. Initialize the folder as a git repository.  
@@ -50,7 +53,7 @@ excerpt: Practice git and GitHub skills
 3. Create a file called "api-keys.txt" 
 4. Check the status of the git repo
 5. Add some text to the "api-keys.txt" file.  Save the changes and check the status. 
-6. IMPORTANT:  For best results, add all files that you want to ignore to the .gitignore file **before** any of the ignored files get committed. Git will still track and push files that were committed before they were added to the .gitignore.  
+6. IMPORTANT:  For best results, add all files that you want to ignore to the .gitignore file **before** any of the ignored files get committed. (Git will still track and push files that were committed before they were added to the .gitignore.)  
 
 ## Creating branches
 1. Make a new branch called "features"
@@ -68,10 +71,10 @@ excerpt: Practice git and GitHub skills
 1. Switch back to the main branch.  Notice the "new_features.txt" file is no longer in the directory. 
 2. Open "file_1.txt" and add a line of text to the file.  
 3. Commit the changes.
-4. Merge the main branch with the "features" branch.  (Your default editor should open to ask you for a commit message.  Type your message and close the file.)
-5. Look at the git log
+4. Merge the main branch with the "features" branch.  (Your default editor should open to ask you for a commit message.  Type your message and close the file.) 
+5. Look at the git log.
 
-## Handling Merge Conflict
+## Handling Merge Conflicts
  1. While on the main branch, open the `new_feature.txt` file and **replace** the old text with `No new features will be created.`  Save the changes. 
  2. Add and commit the changes.
  3. Switch back to the "features" branch.
@@ -88,9 +91,14 @@ excerpt: Practice git and GitHub skills
 2. Copy the SSH url (if you set up ssh keys).
 3. In your local repository, set the remote branch by typing `git remote add origin <ssh url>`
 4. Push the local repo up to GitHub by typing `git push -u origin main`
-5. Check that your GitHub repo was updated with your local work
+5. Check that your GitHub repo was updated with your local work.
 
+## Pulling from GitHub
+1. Make changes to your Readme.md file **directly on GitHub**.
+2. Sync your remote changes by running `git pull` (locally).
+3. Verify that your changes were made. 
 
-
+## Collaborating
+1. Find a classmate to work with.  
 
 

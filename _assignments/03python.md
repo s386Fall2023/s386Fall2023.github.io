@@ -6,13 +6,23 @@ classes: wide
 excerpt: Basic python practice
 ---
 
-## 
+## Setup your blog in GitHub pages & practice 
+1.  In a sensible place on your computer, create a directory where you will store all the files for your class blog.  You can call the directory whatever you want, but something like "Blog" or "386Blog" would be appropriate. 
+2.  Open the folder you just created in VSCode. 
+3.  Create a new file called `index.md`. 
+
+
 [LinkedIn Learning class)[https://github.com/LinkedInLearning/python-essential-training-4314028]
 
 ## Python review questions.
 
+**1.  Write a Python function that will compute the Euclidean distance between any two points.  The function should accept as input two tuples in the form of ((x<sub>1</sub>, y<sub>1</sub>),(x<sub>2</sub>, y<sub>2</sub>)) and return the Euclidean distance.**
 
-**1.  Write a Python function that will compute the Euclidean distance between any two points (x<sub>1</sub>, y<sub>1</sub>) and (x<sub>2</sub>, y<sub>2</sub>).  Use your function to find the distance between (1,3) and (7,11).**
+*Example output:*
+```
+In [1]: euclid_dist((1,3),(7,11))
+out[1]: 10
+```
 
 
 
@@ -21,7 +31,7 @@ excerpt: Basic python practice
 
 *Example output:*
 ```
-In [1]: your_function(2)
+In [1]: sum_ns(2)
 Out[1]: 246
 ```
 
@@ -31,10 +41,10 @@ Out[1]: 246
 *Example output:*
 
 ```
-In [1]: your_function(24)
+In [1]: perfect_square(24)
 Out[1]: False
 
-In [2]: your_function(25)
+In [2]: perfect_square(25)
 Out[2]: 25 is a perfect square of 5
 ```
 
@@ -45,13 +55,13 @@ Out[2]: 25 is a perfect square of 5
 *Example output:*
 
 ```
-In [1]: your_function('madam')
+In [1]: is_palindrome('madam')
 Out[1]: True
 
-In [2]: your_function('nurses run')
+In [2]: is_palindrome('nurses run')
 Out[2]: True
 
-In [3]: your_function('starlight')
+In [3]: is_palindrome('starlight')
 Out[3]: False
 ```
 
@@ -63,8 +73,7 @@ Out[3]: False
  *Example output:*
 
 ```
-In [1]: s = "HELLO!! How are you today?"
-        your_function(s)
+In [1]: count_letter_types("HELLO!! How are you today?")
 Out[1]: {'upper': 6, 'lower': 13, 'space': 4}
 
 ```
@@ -78,7 +87,7 @@ Out[1]: {'upper': 6, 'lower': 13, 'space': 4}
 ```
 In [1]: s = "It is a truth universally acknowledged that a single man in possession of a good fortune must be in want of a wife"
 
-In [2]: your_function(s)
+In [2]: word_lengths(s)
 
 Out[2]: {1: ['a', 'a', 'a', 'a'],
          2: ['It', 'is', 'in', 'of', 'be', 'in', 'of'],
@@ -94,10 +103,10 @@ Out[2]: {1: ['a', 'a', 'a', 'a'],
 
 
 ----
-**7.  Use a `for` loop to make a list of all the numbers between 0 and 300 that have a 3 in them AND are divisible by 3.**
+**7.  Write a python function that accepts an integer `n` (where 2 $\le$ `n` $\le$ 9) and returns a list of all the numbers between 0 and `n`00 that have an `n` in them AND are divisible by `n`.**  
 
-*Desired result (just the first few elements)*
 ```
+In [1]: n_list(3)
 Out[1]: [3,
          30,
          33,
@@ -107,24 +116,10 @@ Out[1]: [3,
          ...
          300]
 
+In [2]: n_list(10)
+Out[2]: "Invalid input: enter a number between 2 and 9"
 ```
 
-
-----
-**8.  Use a list comprehension to make a list of all the numbers between 0 and 300 that have a 3 in them AND are divisible by 3.**
-
-*Desired result (just the first few elements)*
-```
-Out[1]: [3,
-         30,
-         33,
-         36,
-         39,
-         63,
-         ...
-         300]
-
-```
 
 
 ----
@@ -145,115 +140,5 @@ Out[1]: {100: 1.0,
          200: 2.0}
  ```
 
-
-
----
-**10. Given a sentance that is a python string, make a list of words.**
-
-```
-s = "It is a truth universally acknowledged that a single man in possession of a good fortune must be in want of a wife"
-```
-*Desired result*
-```
-['It',
- 'is',
- 'a',
- 'truth',
- 'universally',
- 'acknowledged',
- 'that',
- 'a',
- 'single',
- 'man',
- 'in',
- 'possession',
- 'of',
- 'a',
- 'good',
- 'fortune',
- 'must',
- 'be',
- 'in',
- 'want',
- 'of',
- 'a',
- 'wife']
-```
- 
-
-
----
-**11. Given a list of words, make a sentence that is a python string.**
-
-```
-words = ['It',
-         'is',
-         'a',
-         'truth',
-         'universally',
-         'acknowledged',
-         'that',
-         'a',
-         'single',
-         'man',
-         'in',
-         'possession',
-         'of',
-         'a',
-         'good',
-         'fortune',
-         'must',
-         'be',
-         'in',
-         'want',
-         'of',
-         'a',
-         'wife']
-```
-*Desired result*
-```
-"It is a truth universally acknowledged that a single man in possession of a good fortune must be in want of a wife"
-```
-
-
-**12. Using `try` and `except`, modify the `div` function below such that if `b=0`, the function will print "You can't divide by 0" instead of throwing and error.**
-
-```
-In [1]: def div(a,b):
-            return a/b
-    
-In [2]: div(5,0)
-```
-
-*Desired output*
-
-You can't divide by 0
-
-----
-*Undesired output*
-
-```
----------------------------------------------------------------------------
-ZeroDivisionError                         Traceback (most recent call last)
-/var/folders/k4/x1_f5qd56dx0rk9dg0z1zd4c0000gp/T/ipykernel_64186/985349526.py in <module>
-----> 1 div(5,0)
-
-/var/folders/k4/x1_f5qd56dx0rk9dg0z1zd4c0000gp/T/ipykernel_64186/3173384365.py in div(a, b)
-      1 def div(a,b):
-----> 2     return a/b
-
-ZeroDivisionError: division by zero
-```
-
-
-**13.  What is the difference between a tuple and a list?**
-
-
-
-**14.  What is tuple unpacking?  Give a simple example of tuple unpacking.**
-
-
-
-**15.  What is a lambda function and why is it useful?**
 
 
