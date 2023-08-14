@@ -47,11 +47,11 @@ There are several "officially" [supported themes](https://pages.github.com/theme
 ### E. Configure Repository for GitHub Pages:
 
 1. Go to your repository on GitHub.
-2. Click on the “Settings” tab.
+2. Click on the "Settings" tab.
 3. Scroll down to the GitHub Pages section.
-4. Under the "Source" dropdown, select the `main` branch.
-
-In a few minutes, your site will be accessible at `https://yourusername.github.io` or `https://yourusername.github.io/repo-name` (rendering on GitHub pages is not immediate and takes a few minutes).
+4. Under the "Source" dropdown, make sure that  "Deploy from branch" is selected
+5. Under the "Branch" dropdown, select the `main` branch.  Leave the folder dropdown as "\root". Press the "Save" button.
+6. In a few minutes, your site will be accessible at `https://yourusername.github.io` or `https://yourusername.github.io/repo-name` (it always takes a few minutes for any changes to be reflected on GitHub pages). 
 
 ### F. Create a local version (optional)
 
