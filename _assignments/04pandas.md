@@ -39,7 +39,7 @@ Answer the questions below.
 
 11. How many planes have a missing date of manufacture?
 12. What is the oldest plane that flew from New York City airports in 2013?
-13. What is the correlation coefficient between the number of seats on a plane and the average distance it travelled?
+13. What is the correlation coefficient between the number of seats on a plane and the average distance it traveled?
 14. How many *days* had precipitation in the New York area in 2013? (That is, how many days had precipitation at at least one of the airports in the dataset at least one of the hours.)
 15. Using only days with precipitation greater than zero, what is the correlation between precipitation and average minutes of departure delay?
 

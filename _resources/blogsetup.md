@@ -18,7 +18,7 @@ excerpt: How to setup GitHub pages for hosting a simple blog
 * Option A: Name the repository "*yourusername*.github.io" if you'd like this to be the main webpage for your profile.  For this option leave `baseurl` blank in step **[G-1](#g-edit-the-_config-file)** below.
 * Option B: Otherwise, name the repository anything as per your preference (e.g., `my-blog`).  For this option, use the name of the repository as the `baseurl` in step **[G-1](#g-edit-the-_config-file)** below. 
 3. Make your repository public.
-4. Initialize it with a README.
+4. Do not initialize with a Readme or .gitignore
 5. Click “Create repository.”
 
 ### C. Choose a Jekyll Theme:
@@ -27,11 +27,11 @@ excerpt: How to setup GitHub pages for hosting a simple blog
 
 > *Note: For this class, you are required to have blog hosted on GitHub pages in your own GitHub account, but you can use any tools that you like to create the blog.  For example,  [Hugo](https://gohugo.io/) and [11ty](https://www.11ty.dev/) are other popular static site generators*
 
-There are several "officially" [supported themes](https://pages.github.com/themes/) on GitHub pages, and hundreds of other [paid and free themes](https://jekyllrb.com/docs/themes/) that have been designed to work seamlessly on GitHub pages.  
+There are several "officially" [supported themes](https://pages.github.com/themes/) on GitHub pages, and hundreds of other [paid and free themes](https://jekyllrb.com/docs/themes/) that have been designed to work seamlessly on GitHub pages.  Two themes that I've personally used are [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) and [What A Theme](https://github.com/thedevslot/WhatATheme). 
 
  **This tutorial will use the [stat386-blog theme](https://github.com/esnt/stat386-blog-theme), a simple theme that I made for the Stat 386 class.** 
 
-> *Students in Stat 386 are not required to use this theme. Similar steps can be followed for most Jekyll themes hosted on GitHub.*
+> *Students in Stat 386 are not required to use this theme. Similar steps can be followed for most Jekyll themes hosted on GitHub, although every theme will have its own unique layouts and variable.*
 
 1. Visit the [stat386-blog theme's GitHub repository](https://github.com/esnt/stat386-blog-theme).
 2. Click the green “Code” button and then select “Download ZIP.”
@@ -78,6 +78,7 @@ While it is not required, I find that it is easier to do edits to my sites local
 * `image:` The internal or external link to your main blog image
 * `author:` Your name
 * `copyright:` Your initials or leave blank
+* `footer_description:` Delete and optionally add your own.  This will appear in the footer on the right side of the page
 * Social media users names as you like
 2. Further customize your blog by adding information about yourself to the "About.md" file
 3. Save and commit all changes.  Sync local and remote repositories if necessary. 
@@ -159,6 +160,6 @@ Changes that you make to your GitHub pages site are not immediate.  It takes a f
 
 ---
 
-That's the simplified process! Your blog is now set up on GitHub Pages. Remember to commit any changes to reflect them on your live site. 
+Your blog is now set up on GitHub Pages. Remember to commit any changes to reflect them on your live site. 
 
 

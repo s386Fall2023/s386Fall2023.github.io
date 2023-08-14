@@ -7,7 +7,9 @@ excerpt: Get everything needed for class set up this week.
 #header:
 #   teaser: /assets/images/frog.png  
 ---
+Objective:  Setup the tools that we'll be using this semester in Stat 386.
 
+Instructions: Follow the direction below to get Git, GitHub, Anaconda, and VS Code up and running.
 
 ## Install necessary software
 
@@ -36,9 +38,15 @@ excerpt: Get everything needed for class set up this week.
     * Install some of the other packages that we'll be using:
     ```pip install streamlit```
 ---
-## 3. VS Code
-Download and install [VS Code](https://code.visualstudio.com/)
+### 3. VS Code
+1. Download and install [VS Code](https://code.visualstudio.com/)
+2. Install the following extensions.  To install an extension, click on the "Extensions" icon on the left most toolbar, search for the extension name in the search bar, and click the "Install" button.  
+    * GitHub Pull Requests and Issues
+    * Python (by Microsoft)
+    * Jupyter (by Microsoft)
+3. Sign into GitHub through VS Code by clicking on the "GitHub" icon on the left most toolbar and clicking "Sign in". (*Note: You will first need to sign up for a [GitHub](https://github.com) account if you don't have one already*.)
 
+---
 ---
 ## Setup Github
 1. Create a [Github](https://github.com/) account (if you haven't already done so)

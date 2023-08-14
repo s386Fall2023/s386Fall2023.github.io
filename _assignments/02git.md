@@ -98,7 +98,12 @@ Instructions:
 2. Sync your remote changes by running `git pull` (locally).
 3. Verify that your changes were made. 
 
-## Collaborating
-1. Find a classmate to work with.  
+## Making a Pull Request
+1. Find a classmate to work with. 
+***
+
+## Creating a GitHub Pages site
+1. Start setting up your blog site by following [these instructions]({{site.url}}/{{site.baseurl}}/resources/blogsetup)
+2. Your blog doesn't need to be fully setup by the end of this week, but it will need to be finished by next week.
 
 

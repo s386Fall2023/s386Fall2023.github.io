@@ -6,30 +6,30 @@ classes: wide
 excerpt: Basic python practice
 ---
 
-## Setup your blog in GitHub pages & practice 
-1.  In a sensible place on your computer, create a directory where you will store all the files for your class blog.  You can call the directory whatever you want, but something like "Blog" or "386Blog" would be appropriate. 
-2.  Open the folder you just created in VSCode. 
-3.  Create a new file called `index.md`. 
+## Finish Blog Setup
+
+If you haven't already, finish setting up your blog following [these instructions]({{site.url}}/{{site.baseurl}}/resources/blogsetup).
 
 
-[LinkedIn Learning class)[https://github.com/LinkedInLearning/python-essential-training-4314028]
+[LinkedIn Learning class](https://github.com/LinkedInLearning/python-essential-training-4314028)
 
+---
 ## Python review questions.
 
 **1.  Write a Python function that will compute the Euclidean distance between any two points.  The function should accept as input two tuples in the form of ((x<sub>1</sub>, y<sub>1</sub>),(x<sub>2</sub>, y<sub>2</sub>)) and return the Euclidean distance.**
 
 *Example output:*
+
 ```
 In [1]: euclid_dist((1,3),(7,11))
 out[1]: 10
 ```
 
-
-
 -----
 **2. Write a Python function that computes the value of ``n + nn + nnn`` where ``n`` is an integer.  For example if,  ``n=2``, the function should return ``246`` (which is the sum of 2+22+222).**  
 
 *Example output:*
+
 ```
 In [1]: sum_ns(2)
 Out[1]: 246
@@ -48,7 +48,6 @@ In [2]: perfect_square(25)
 Out[2]: 25 is a perfect square of 5
 ```
 
-
 ----
 **4. Write a Python function that checks whether a string is a palindrome or not.  A palindrome is a word or phrase that reads the same forwards and backwards (ignoring spaces), such as "madam" or "nurses run".**
 
@@ -64,7 +63,6 @@ Out[2]: True
 In [3]: is_palindrome('starlight')
 Out[3]: False
 ```
-
 
 ----
 **5. Write a Python function that accepts a string and calculates the number of upper case letters, the number of lower case letters, and the number of spaces.  The function should return a dictionary where the keys are "upper", "lower", and "space" and the value is the number of occurences.  See the example output below.**    
@@ -123,7 +121,7 @@ Out[2]: "Invalid input: enter a number between 2 and 9"
 
 
 ----
-**9.  Use a dictionary comprehension to create a dictionary where the keys are the numbers between 100 and 200 (inclusive) that are divisble by 10 and the value associated with each key is the key divided by 100.**
+**9.  Use a dictionary comprehension to create a dictionary where the keys are the numbers between 100 and 200 (inclusive) that are divisible by 10 and the value associated with each key is the key divided by 100.**
 
 *Desired result*
 ```
