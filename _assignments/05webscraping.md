@@ -10,7 +10,7 @@ Using `requests`, `BeautifulSoup`, and `pandas`, create a DataFrame of the
 [140 Essential Action Movies](https://editorial.rottentomatoes.com/guide/140-essential-action-movies-to-watch-now/)
 as selected by Rotten Tomatoes. 
 
-Your DataFrame should have 140 rows and 4 or 5 colums:
+Your DataFrame should have 140 rows and 4 or 5 columns:
 
 | Title | Year | Score | Rank | (Category) |
 | --------|--------|--------|--------|--------|
