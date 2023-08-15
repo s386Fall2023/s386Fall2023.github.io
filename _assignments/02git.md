@@ -5,11 +5,11 @@ author_profile: false
 classes: wide
 excerpt: Practice git and GitHub skills
 ---
-Objective:  Familiarize yourself with essential Git and GitHub commands and workflows. Get hands-on practice with creating repositories, making commits, working with branches, and handling merge conflicts. 
+Objective:  Familiarize yourself with essential Git and GitHub commands and workflows. Get hands-on practice with creating repositories, making commits, working with branches, handling merge conflicts, and opening pull requests.
 
-Instructions:  
+Instructions:  Go through each of the steps below. 
 
-## Initializing a new repository
+## Initial a new repository
 1. Create an empty folder called `git_practice` in a sensible location on your computer. 
 2. Navigate into the new folder
 3. Initialize the folder as a git repository.  
@@ -17,7 +17,7 @@ Instructions:
     * *Do NOT initialize root directories or parent folders relating to different projects*
 4. Verify that the .git folder is now in the directory.
 
-## Making your first commit
+## Make your first commit
 1. Check the git status 
 2. Create a new file called `file_1.txt` 
 3. Create another new file called `file_2.txt` 
@@ -28,7 +28,7 @@ Instructions:
 8. Check the git status 
 9. Check the git log 
 
-## More git practicing
+## More git practice
  1. Open `file_1.txt` in a text editor.   Add the following to the file:
     ```
     This is my first file.
@@ -42,12 +42,12 @@ Instructions:
 5. Make another commit with only the changes from the `file_2.txt` file.
 6. Check the git log
 
-## Creating a Readme file
+## Create a Readme file
 1. Create a file called "Readme.md"
-2. Write a description of the repository with a title
+2. Inside the Readme file, create a title (such as the name of the repo) and write a description of the repository
 3. Add and commit the readme file.
     
-## Creating a .gitignore
+## Create a .gitignore
 1. Create a .gitignore file with the following text "api-keys.txt" 
 2. Add and commit the .gitignore file
 3. Create a file called "api-keys.txt" 
@@ -55,7 +55,7 @@ Instructions:
 5. Add some text to the "api-keys.txt" file.  Save the changes and check the status. 
 6. IMPORTANT:  For best results, add all files that you want to ignore to the .gitignore file **before** any of the ignored files get committed. (Git will still track and push files that were committed before they were added to the .gitignore.)  
 
-## Creating branches
+## Create a branch
 1. Make a new branch called "features"
 2. Switch to the "features" branch
 3. Look at the log and notice where HEAD is
@@ -67,14 +67,14 @@ Instructions:
     ```
 7. Commit the changes to the current ("features") branch
 
-## Merging
+## Merge
 1. Switch back to the main branch.  Notice the "new_features.txt" file is no longer in the directory. 
 2. Open "file_1.txt" and add a line of text to the file.  
 3. Commit the changes.
 4. Merge the main branch with the "features" branch.  (Your default editor should open to ask you for a commit message.  Type your message and close the file.) 
 5. Look at the git log.
 
-## Handling Merge Conflicts
+## Handle a Merge Conflict
  1. While on the main branch, open the `new_feature.txt` file and **replace** the old text with `No new features will be created.`  Save the changes. 
  2. Add and commit the changes.
  3. Switch back to the "features" branch.
@@ -86,24 +86,64 @@ Instructions:
  9. Resolve the conflict and commit the merge.
 10. Delete the `features` branch.
  
-## Pushing to GitHub
-1. Login to GitHub and create a blank repository  called "Git_practice.  Do not initialize it with a readme file or a .gitignore file.
+## Push to GitHub
+1. Login to GitHub and create a blank repository  called "Git-practice-*uniqueword*" (replace *uniqueword* with an appropriate unique word to distinguish your repo -- it could be your user name or initials, but doesn't need to be).  
+    * Do not initialize it with a readme file, a .gitignore file, or license
 2. Copy the SSH url (if you set up ssh keys).
 3. In your local repository, set the remote branch by typing `git remote add origin <ssh url>`
 4. Push the local repo up to GitHub by typing `git push -u origin main`
-5. Check that your GitHub repo was updated with your local work.
+5. Check that your GitHub repo was updated with your local work
 
-## Pulling from GitHub
-1. Make changes to your Readme.md file **directly on GitHub**.
-2. Sync your remote changes by running `git pull` (locally).
-3. Verify that your changes were made. 
 
-## Making a Pull Request
-1. Find a classmate to work with. 
-***
+## Collaborating and Making Pull Requests
 
-## Creating a GitHub Pages site
+**Find at least ONE other classmates to work with for this part**
+
+### Make a Pull Request
+1. Fork the repository of another student
+2. Clone the forked repository to your local machine
+3. Create a new branch called `feature-<your-name>`.  Replace `<your-name>` with your GitHub username
+4. Make changes to the repository.  For example, you could create a new file or edit the text of an existing file
+5. Commit all your changes
+6. Push the changes to your fork by typing `git push origin feature-<your-name>`
+7. Go to your forked repository on GitHub and create a pull request 
+* the base repository is your classmate's repository
+* the head repository is the feature branch in your forked repository
+8. Fill in a descriptive title and a comment explaining your changes
+9. If necessary, update the pull request to respond to suggestions
+10. If you want more practice, repeat these steps with another student
+
+(*Once your pull request has been accepted and merged, you can delete the local and remote forks if you want to*)
+
+### Review and Merge a Pull Request
+1. Have another student create a pull request in your repository by following the steps above. 
+2. Review the pull request and leave constructive comments, such as suggestions to improve or questions about the pull request.  If you suggest any changes to the pull request then tell your partner to update the pull request
+3. Once the pull request is finalized, merge the pull request into your repository
+4. If you want more practice, repeat these steps with another student
+
+## Pull from GitHub
+1. Once all pull requests have been merged on GitHub, sync the remote changes to your local repository by running `git pull` (locally).
+2. Verify that the changes are in your local repository. 
+
+## Submit your work
+1. Navigate to the repository that you've been working with
+2. Export the git log (where every commit is on just one line) to file called `gitlog.txt`:
+```
+git log --online > gitlog.txt
+```
+3. Export your command line history with all the git commands you used to a file called `history.txt`:
+```
+history | grep git > history.txt
+```
+*Note: If you are on a mac using the .zsh shell then use:*
+```
+history 0 | grep git > history.txt
+```
+4. Commit the changes and push to GitHub
+5. Submit the  `gitlog.txt` and `history.txt` files to Gradescope
+
+
+## Optional (for this week): Create a GitHub Pages site
 1. Start setting up your blog site by following [these instructions]({{site.url}}/{{site.baseurl}}/resources/blogsetup)
-2. Your blog doesn't need to be fully setup by the end of this week, but it will need to be finished by next week.
-
+2. Your blog doesn't need to be fully setup by the end of this week, but it is a good idea to get started on it. 
 
