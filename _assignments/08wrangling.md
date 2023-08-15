@@ -1,5 +1,5 @@
 ---
-title: "Week 7: Data Wrangling"
+title: "Week 8: Data Wrangling"
 layout: single
 author_profile: false
 classes: wide

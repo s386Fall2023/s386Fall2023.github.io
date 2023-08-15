@@ -36,7 +36,8 @@ In order to ensure that we are all running the same version of python and of the
 * Create a folder for this homework assignment in a sensible location on your computer
 * Initialize the folder as a git repository either in the command line or with VSCode.
 * Open the folder in VSCode (if you haven't already)
-* Practice using VSCode with git while you complete the rest of the assignment.  
+* Practice using VSCode with git while you complete the rest of the assignment.
+* Make sure that you are using the class virtual environment 
 
 **1.  Write a Python function that will compute the Euclidean distance between any two points.  The function should accept as input two tuples in the form of ((x<sub>1</sub>, y<sub>1</sub>),(x<sub>2</sub>, y<sub>2</sub>)) and return the Euclidean distance.**
 
