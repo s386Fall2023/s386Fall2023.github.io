@@ -9,7 +9,7 @@ excerpt: Get everything needed for class set up this week.
 ---
 Objective:  Setup the tools that we'll be using this semester in Stat 386.
 
-Instructions: Follow the direction below to get Git, GitHub, Anaconda, and VS Code up and running.
+Instructions: Follow the direction below to install Git, Anaconda, and VS Code; and to set up your GitHub account.
 
 ## Install necessary software
 
@@ -25,30 +25,17 @@ Instructions: Follow the direction below to get Git, GitHub, Anaconda, and VS Co
 
 ---
 ### 2. Anaconda 
-1. Download and install [anaconda](https://www.anaconda.com/download) or [miniconda](https://docs.conda.io/en/latest/miniconda.html) onto your computer
-2. Create a virtual environment for our class:
-    * In the terminal (Mac) or Anaconda promt (Windows) type
-    ```conda create --name stat386 python==3.10```
-    * Activate the environment you just created:
-    ```conda activate stat386```
-    * Conda install the packages we will use for this class:
-    ```conda install beautifulsoup4 bokeh hdf5 html5lib ipykernel jupyter ipython matplotlib matplotlib-base matplotlib-inline nltk notebook numpy openpyxl pandas pillow requests scikit-learn scrapy seaborn scipy statsmodels```
-    and
-    ```conda install -c plotly plotly=5.15.0```
-    * Install some of the other packages that we'll be using:
-    ```pip install streamlit```
+1. Download and install [Anaconda](https://www.anaconda.com/download) or [miniconda](https://docs.conda.io/en/latest/miniconda.html) onto your computer
+2. If you already have Anaconda installed, be sure it is up to date by opening a terminal (or the Anaconda prompt in Windows) and typing
+```conda update conda```
+
 ---
 ### 3. VS Code
 1. Download and install [VS Code](https://code.visualstudio.com/)
-2. Install the following extensions.  To install an extension, click on the "Extensions" icon on the left most toolbar, search for the extension name in the search bar, and click the "Install" button.  
-    * GitHub Pull Requests and Issues
-    * Python (by Microsoft)
-    * Jupyter (by Microsoft)
-3. Sign into GitHub through VS Code by clicking on the "GitHub" icon on the left most toolbar and clicking "Sign in". (*Note: You will first need to sign up for a [GitHub](https://github.com) account if you don't have one already*.)
 
 ---
 ---
-## Setup Github
+## 4. Setup Github
 1. Create a [Github](https://github.com/) account (if you haven't already done so)
 2. Setup your Github profile:
     * Add a picture
