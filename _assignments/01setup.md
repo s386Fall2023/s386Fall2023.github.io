@@ -11,9 +11,8 @@ Objective:  Setup the tools that we'll be using this semester in Stat 386.
 
 Instructions: Follow the direction below to install Git, Anaconda, and VS Code; and to set up your GitHub account.
 
-## Install necessary software
 
-### 1. Git
+## 1. Install Git
 1. Download and install [git](https://git-scm.com/) onto your computer (version should be 2.33 or greater)
     * Verify that the installation was successful:
         - On a mac: Open the terminal and type `git --version`.  It should return `git version X.XX.XX` (with the version number)
@@ -24,13 +23,13 @@ Instructions: Follow the direction below to install Git, Anaconda, and VS Code; 
     * Change the default branch to "main" (instead of "master") 
 
 ---
-### 2. Anaconda 
+## 2. Install Anaconda 
 1. Download and install [Anaconda](https://www.anaconda.com/download) or [miniconda](https://docs.conda.io/en/latest/miniconda.html) onto your computer
 2. If you already have Anaconda installed, be sure it is up to date by opening a terminal (or the Anaconda prompt in Windows) and typing
 ```conda update conda```
 
 ---
-### 3. VS Code
+## 3. Install VS Code
 1. Download and install [VS Code](https://code.visualstudio.com/)
 
 ---
@@ -47,6 +46,9 @@ Instructions: Follow the direction below to install Git, Anaconda, and VS Code; 
     * OAuth token
     * [SSH keys]({{site.url}}/{{site.baseurl}}/resources/sshsetup)
 
+## 5. Join class Discord channel 
+
+## 6. Get added the Gradescope Course
 
     
 

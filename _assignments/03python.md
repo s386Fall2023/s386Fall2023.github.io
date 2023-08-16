@@ -1,9 +1,9 @@
 ---
-title: "Week 3: Python Basics Practice"
+title: "Week 3: Anaconda , VS Code, and Python Practice"
 layout: single
 author_profile: false
 classes: wide
-excerpt: Basic python practice
+excerpt: Finish setting up Anaconda and VS code.  Practice basic python skills.
 ---
 
 ## Anaconda
@@ -30,7 +30,6 @@ In order to ensure that we are all running the same version of python and of the
 
 1. If you haven't already, finish setting up your blog following [these instructions]({{site.url}}/{{site.baseurl}}/resources/blogsetup).
 2. Once you have finished, add you
-
 
 ## Python review questions.
 * Create a folder for this homework assignment in a sensible location on your computer
