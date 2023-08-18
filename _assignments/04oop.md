@@ -39,7 +39,7 @@ You're given a CSV file named `library_books.csv` with the following columns:
 **Task 2:** Create a `Library` class
 
 1. Attributes:
-   - `dataframe`: A pandas DataFrame loaded from a provided CSV.
+   - `data`: A pandas DataFrame loaded from a provided CSV.
 
 2. Methods:
    - `add_book()`: Takes an instance of `Book` and adds it to the dataframe.
