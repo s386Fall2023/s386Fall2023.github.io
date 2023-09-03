@@ -18,9 +18,12 @@ Instructions: Follow the direction below to install Git, Anaconda, and VS Code; 
         - On a mac: Open the terminal and type `git --version`.  It should return `git version X.XX.XX` (with the version number)
         - On a PC: Verify that you have "git bash".  Open "git bash" and type `git --version` to verify your version number.
 
-2. Configure git 
-    * Configure git on your computer with your name, email, and text editor of choice.
-    * Change the default branch to "main" (instead of "master") 
+2. Configure git in the terminal
+    * Name: ```git config --global use.name "YourFirst AndLastName```
+    * Email: ```git config --global user.email "your_valid_email@sample.com```
+    * Text editor: ```git config --global core.editor "code --wait"``` (This command sets the editor to VS Code.  Click [here](https://git-scm.com/book/en/v2/Appendix-C%3A-Git-Commands-Setup-and-Config) for other options.)
+    * Default branch: ```git config --global init.defaultBrach main```
+    
 
 ---
 ## 2. Install Anaconda 
@@ -33,7 +36,6 @@ Instructions: Follow the direction below to install Git, Anaconda, and VS Code; 
 1. Download and install [VS Code](https://code.visualstudio.com/)
 
 ---
----
 ## 4. Setup Github
 1. Create a [Github](https://github.com/) account (if you haven't already done so)
 2. Setup your Github profile:
@@ -43,8 +45,8 @@ Instructions: Follow the direction below to install Git, Anaconda, and VS Code; 
     * Create a [profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)
 3. Grant Github access to your computer:
     In order for you to be able "push" changes from your computer to Github, your Github needs to recognize your computer as having permission to do so.  You will need to use ONE of the following methods:
-    * OAuth token
     * [SSH keys]({{site.url}}/{{site.baseurl}}/resources/sshsetup)
+    * [Passkey]()
 
 ## 5. Join class Discord channel 
 
