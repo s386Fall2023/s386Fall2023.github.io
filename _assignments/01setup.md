@@ -67,9 +67,10 @@ Make sure that you are able to access:
 * O'Reilly Learning
 * Gradescope
 * Discord
+* Box
 
 ## 9. Read the Syllabus
 Be sure to read the syllabus (available on LearningSuite) in its entirety.  Ask me if anything is unclear.  
 
 ## 10. Submit
-Once you have finished all of these steps, submit a pdf confirming your completion of the assignment on Gradescope.
+Once you have finished all of these steps, submit a pdf confirming your completion of the assignment on Gradescope.  For example, a Word document saved as a pdf with the text "I have completed all of the steps" is sufficient.  
