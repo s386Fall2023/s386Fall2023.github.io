@@ -1,5 +1,5 @@
 ---
-title: "Week 3: Anaconda , VS Code, and Python Practice"
+title: "NOT FINISHED - Week 3: Anaconda , VS Code, and Python Practice"
 layout: single
 author_profile: false
 classes: wide

@@ -46,13 +46,28 @@ Instructions: Follow the direction below to install Git, Anaconda, and VS Code; 
 3. Grant Github access to your computer:
     In order for you to be able "push" changes from your computer to Github, your Github needs to recognize your computer as having permission to do so.  You will need to use ONE of the following methods:
     * [SSH keys]({{site.url}}/{{site.baseurl}}/resources/sshsetup)
-    * [Passkey]()
+    * [Passkey](https://docs.github.com/en/authentication/authenticating-with-a-passkey/about-passkeys) (I use SSH keys and I don't have experience with passkeys but will definitely help you figure it out if necessary.)
 
+---
 ## 5. Join class Discord channel 
+See LearningSuite for details
 
+---
 ## 6. Get added the Gradescope Course
+See LearningSuite for details
 
-    
+---
+## 7. Complete Informational Survey
+See LearningSuite for details
 
+---  
+## 8. Accessing Class Material
+Make sure that you are able to access:
+* LinkedIn Learning
+* O'Reilly Learning
+* Gradescope
+* Discord
 
+## 9. Read the Syllabus
+Be sure to read the syllabus (available on LearningSuite) in its entirety.  Ask me if anything is unclear.  
 

@@ -1,5 +1,5 @@
 ---
-title: "Week 2: Git & GitHub"
+title: "NOT FINISHED - Week 2: Git & GitHub"
 layout: single
 author_profile: false
 classes: wide
