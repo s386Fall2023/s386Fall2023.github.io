@@ -129,16 +129,14 @@ Instructions:  Go through each of the steps below.
 1. Navigate to the repository that you've been working with
 2. Export the git log (where every commit is on just one line) to file called `gitlog.txt`:
 ```
-git log --online > gitlog.txt
+git log --oneline > gitlog.txt
 ```
 3. Export your command line history with all the git commands you used to a file called `history.txt`:
 ```
 history | grep git > history.txt
 ```
-*Note: If you are on a mac using the .zsh shell then use:*
-```
-history 0 | grep git > history.txt
-```
+*Note: If you are on a mac using the .zsh shell then use:* `history 0 | grep git > history.txt`
+
 4. Commit the changes and push to GitHub
 5. Submit the  `gitlog.txt` and `history.txt` files to Gradescope
 
