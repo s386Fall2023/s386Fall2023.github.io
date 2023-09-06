@@ -40,7 +40,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
     * There are several ways to do this:
         - In Git Bash (Windows), type ```clip < ~/.ssh/id_ed25519.pub```, which will copy the contents of the file to the clipboard
         - In the terminal (Mac), type ```pbcopy < ~/.ssh/id_ed25519.pub```, which will copy the contents of the file to the clipboard
-        - In either, type ```cat ~ /.ssh/id_ed25519.pub``` to print the contents of the file to the screen, then copy the contents using Ctrl-C (Windows) or Cmd-C (Mac)
+        - In either, type ```cat ~/.ssh/id_ed25519.pub``` to print the contents of the file to the screen, then copy the contents using Ctrl-C (Windows) or Cmd-C (Mac)
 2. Go to GitHub.  In the upper-right corner, click on your profile photo, then click **Settings**.  
 3. In the user settings sidebar, click *SSH and GPG keys*
 4. Click **New SSH key**
