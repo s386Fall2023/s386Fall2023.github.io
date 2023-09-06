@@ -1,5 +1,5 @@
 ---
-title: "NOT FINISHED - Week 2: Git & GitHub"
+title: "Lab 2: Git & GitHub"
 layout: single
 author_profile: false
 classes: wide
@@ -7,7 +7,7 @@ excerpt: Practice git and GitHub skills
 ---
 Objective:  Familiarize yourself with essential Git and GitHub commands and workflows. Get hands-on practice with creating repositories, making commits, working with branches, handling merge conflicts, and opening pull requests.
 
-Instructions:  Go through each of the steps below. 
+Instructions:  Go through each of the steps below and submit the final version of the GitHub repo to Gradescope. 
 
 ## Initial a new repository
 1. Create an empty folder called `git_practice` in a sensible location on your computer. 
@@ -15,11 +15,12 @@ Instructions:  Go through each of the steps below.
 3. Initialize the folder as a git repository.  
     * *Remember that every project should be its own git repository.*
     * *Do NOT initialize root directories or parent folders relating to different projects*
-4. Verify that the .git folder is now in the directory.
+4. Verify that the .git folder is now in the directory (in the terminal run `ls -la` and you should see the `.git` folder).
 
 ## Make your first commit
 1. Check the git status 
 2. Create a new file called `file_1.txt` 
+    * Run `touch file_1.txt` in the terminal (mac) or git bash terminal (windows) to create an empty file called `file_1.txt`
 3. Create another new file called `file_2.txt` 
 4. Check the git status 
 5. Add both files to the staging area
@@ -43,17 +44,18 @@ Instructions:  Go through each of the steps below.
 6. Check the git log
 
 ## Create a Readme file
-1. Create a file called "Readme.md"
+1. Create a file called `Readme.md``
 2. Inside the Readme file, create a title (such as the name of the repo) and write a description of the repository
 3. Add and commit the readme file.
     
-## Create a .gitignore
-1. Create a .gitignore file with the following text "api-keys.txt" 
-2. Add and commit the .gitignore file
+## Create a `.gitignore`
+1. Create a `.gitignore` file with the following text "api-keys.txt" 
+2. Add and commit the `.gitignore` file
 3. Create a file called "api-keys.txt" 
 4. Check the status of the git repo
 5. Add some text to the "api-keys.txt" file.  Save the changes and check the status. 
-6. IMPORTANT:  For best results, add all files that you want to ignore to the .gitignore file **before** any of the ignored files get committed. (Git will still track and push files that were committed before they were added to the .gitignore.)  
+
+*IMPORTANT:  For best results, add all files that you want to ignore to the .gitignore file **before** any of the ignored files get committed. (Git will still track and push files that were committed before they were added to the .gitignore.)*  
 
 ## Create a branch
 1. Make a new branch called "features"
@@ -69,10 +71,12 @@ Instructions:  Go through each of the steps below.
 
 ## Merge
 1. Switch back to the main branch.  Notice the "new_features.txt" file is no longer in the directory. 
-2. Open "file_1.txt" and add a line of text to the file.  
+2. Open `file_1.txt` and add a line of text to the file (anything you want)  
 3. Commit the changes.
-4. Merge the main branch with the "features" branch.  (Your default editor should open to ask you for a commit message.  Type your message and close the file.) 
-5. Look at the git log.
+4. Merge the main branch with the "features" branch.  
+    * Your default editor should open to ask you for a commit message
+    * Type a message and close the commit message file
+5. Look at the git log.  You should see the git commit with the merge.
 
 ## Handle a Merge Conflict
  1. While on the main branch, open the `new_feature.txt` file and **replace** the old text with `No new features will be created.`  Save the changes. 
@@ -87,10 +91,10 @@ Instructions:  Go through each of the steps below.
 10. Delete the `features` branch.
  
 ## Push to GitHub
-1. Login to GitHub and create a blank repository  called "Git-practice-*uniqueword*" (replace *uniqueword* with an appropriate unique word to distinguish your repo -- it could be your user name or initials, but doesn't need to be).  
+1. Login to GitHub and create a blank repository  called "git-practice-*user_name*" (replace *user_name* with your GitHub username).  
     * Do not initialize it with a readme file, a .gitignore file, or license
 2. Copy the SSH url (if you set up ssh keys).
-3. In your local repository, set the remote branch by typing `git remote add origin <ssh url>`
+3. In your local repository, set the remote branch by typing `git remote add origin <ssh url>` (replace `<ssh url>` with the copied repo url)
 4. Push the local repo up to GitHub by typing `git push -u origin main`
 5. Check that your GitHub repo was updated with your local work
 
@@ -107,8 +111,8 @@ Instructions:  Go through each of the steps below.
 5. Commit all your changes
 6. Push the changes to your fork by typing `git push origin feature-<your-name>`
 7. Go to your forked repository on GitHub and create a pull request 
-* the base repository is your classmate's repository
-* the head repository is the feature branch in your forked repository
+    * the base repository is your classmate's repository
+    * the head repository is the feature branch in your forked repository
 8. Fill in a descriptive title and a comment explaining your changes
 9. If necessary, update the pull request to respond to suggestions
 10. If you want more practice, repeat these steps with another student
@@ -125,20 +129,32 @@ Instructions:  Go through each of the steps below.
 1. Once all pull requests have been merged on GitHub, sync the remote changes to your local repository by running `git pull` (locally).
 2. Verify that the changes are in your local repository. 
 
-## Submit your work
-1. Navigate to the repository that you've been working with
-2. Export the git log (where every commit is on just one line) to file called `gitlog.txt`:
+## Create Submission Files
+1. Navigate to the repository that you've been working with (on your local machine)
+2. Export the one-line git log to file called `gitlog.txt` by running the following in a terminal or git bash terminal. 
 ```
 git log --oneline > gitlog.txt
 ```
-3. Export your command line history with all the git commands you used to a file called `history.txt`:
-```
-history | grep git > history.txt
-```
-*Note: If you are on a mac using the .zsh shell then use:* `history 0 | grep git > history.txt`
 
-4. Commit the changes and push to GitHub
-5. Submit the  `gitlog.txt` and `history.txt` files to Gradescope
+3. Export your command line history with all the git commands you used to a file called `history.txt`:
+    * Windows git bash terminal (or Mac bash shell)
+    ```
+    history | grep git > history.txt
+    ```
+    * Mac zsh shell (most new-ish Mac use zsh by default so unless you have specifically configured the terminal to use bash, most likely your Mac is using zsh)
+    ```
+    history 0 | grep git > history.txt
+    ```
+4. Add and commit these two files, then push the changes to GitHub
+
+**IMPORTANT:  Be sure that your files are named `gitlog.txt` and `history.txt` *exactly***
+## Gradescope Submission
+1. On Gradescope, when you click on the "Lab 2: Git and GitHub" assignment, you will be asked to connect your GitHub account. 
+2. Connect your GitHub account and then choose the repository that you've been working with for your submission.
+3. The Gradescope autograder will do the following:
+    * Check to make sure all files are present
+    * Check that `gitlog.txt` has at least five commits
+    * Check to makes sure that all the git commands the assignments ask for are present in `history.txt`
 
 
 ## Optional (for this week): Create a GitHub Pages site

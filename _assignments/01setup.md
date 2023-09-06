@@ -1,5 +1,5 @@
 ---
-title: "Week 1: Getting set up"
+title: "Lab 1: Getting set up"
 layout: single
 author_profile: false
 classes: wide
@@ -46,7 +46,9 @@ Instructions: Follow the direction below to install Git, Anaconda, and VS Code; 
 3. Grant Github access to your computer:
     In order for you to be able "push" changes from your computer to Github, your Github needs to recognize your computer as having permission to do so.  You will need to use ONE of the following methods:
     * [SSH keys]({{site.url}}/{{site.baseurl}}/resources/sshsetup)
-    * [Passkey](https://docs.github.com/en/authentication/authenticating-with-a-passkey/about-passkeys) (I use SSH keys and I don't have experience with passkeys but will definitely help you figure it out if necessary.)
+    * [Passkey](https://docs.github.com/en/authentication/authenticating-with-a-passkey/about-passkeys) 
+    * [Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) 
+    * *I use SSH keys and I don't have experience with the other methods but will definitely help you figure it out if necessary.*
 
 ---
 ## 5. Join class Discord channel 
