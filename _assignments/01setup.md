@@ -22,7 +22,7 @@ Instructions: Follow the direction below to install Git, Anaconda, and VS Code; 
     * Name: ```git config --global use.name "YourFirst AndLastName```
     * Email: ```git config --global user.email "your_valid_email@sample.com```
     * Text editor: ```git config --global core.editor "code --wait"``` (This command sets the editor to VS Code.  Click [here](https://git-scm.com/book/en/v2/Appendix-C%3A-Git-Commands-Setup-and-Config) for other options.)
-    * Default branch: ```git config --global init.defaultBrach main```
+    * Default branch: ```git config --global init.defaultBranch main```
     
 
 ---
