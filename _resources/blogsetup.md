@@ -40,15 +40,16 @@ There are several "officially" [supported themes](https://pages.github.com/theme
 ### D. Upload the Jekyll Theme to Your Repository:
 
 1. Navigate to your repository on GitHub.
-2. Click on the “Add file” button and choose “Upload files.”
-3. Drag all the files from the extracted theme folder (from step C-3) into the GitHub interface to upload them.
-4. Commit the changes by clicking the "Commit changes" button at the bottom of the page.
+2. Find the area of the page that says "Quick setup"
+3. Inside the "Quick setup" box, click on the link "upload an existing file."
+4. Drag all the files from the extracted theme folder (from step C-3) into the GitHub interface to upload them.
+5. Commit the changes by clicking the "Commit changes" button at the bottom of the page.
 
 ### E. Configure Repository for GitHub Pages:
 
 1. Go to your repository on GitHub.
 2. Click on the "Settings" tab.
-3. Scroll down to the GitHub Pages section.
+3. Click on the "Pages" link on the left-hand side under "Code and automation".
 4. Under the "Source" dropdown, make sure that  "Deploy from branch" is selected
 5. Under the "Branch" dropdown, select the `main` branch.  Leave the folder dropdown as "\root". Press the "Save" button.
 6. In a few minutes, your site will be accessible at `https://yourusername.github.io` or `https://yourusername.github.io/repo-name` (it always takes a few minutes for any changes to be reflected on GitHub pages). 
