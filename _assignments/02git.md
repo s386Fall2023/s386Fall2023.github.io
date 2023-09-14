@@ -110,7 +110,7 @@ Instructions:  Go through each of the steps below and submit the final version o
 
 ### Make a Pull Request
 1. Fork the repository of another student
-2. Clone the forked repository to your local machine
+2. Clone the forked repository to your local machine (outside your own repository that you've been working in).
 3. Create a new branch called `feature-<your-name>`.  Replace `<your-name>` with your GitHub username
 4. Make changes to the repository.  For example, you could create a new file or edit the text of an existing file
 5. Commit all your changes
