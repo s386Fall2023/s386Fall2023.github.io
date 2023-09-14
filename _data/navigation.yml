@@ -4,8 +4,10 @@ main:
     url: /schedule/
   - title: "Weekly Labs"
     url: /assignments/
-  - title: "Blogs"
-    url: /blogs/
+  #- title: "Blogs"
+  #  url: /blogs/
+  - title: "Projects"
+    url: /projects/
   - title: "About"
     url: /about/
   - title: "Other resources"

@@ -87,7 +87,11 @@ Instructions:  Go through each of the steps below and submit the final version o
  6. Switch back to the main branch. 
  7. Merge the main branch with the "features" branch.
  8. You should get a merge conflict error and your default editor will open to have you resolve the conflict.
+    * If your default editor doesn't open automatically:
+        - Open `new_features.txt` manually in the text editor and edit the file by either accepting new changes, keeping old version, or a combination of both.
+        - Save and commit the changes.  
  9. Resolve the conflict and commit the merge.
+    * *You already did this if you saved and committed changes in the previous step*.
 10. Delete the `features` branch.
  
 ## Push to GitHub

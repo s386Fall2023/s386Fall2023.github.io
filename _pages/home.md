@@ -26,12 +26,12 @@ feature_row:
     btn_class: "btn--info"
     btn_label: "Go to labs page"
   - image_path: /assets/images/python.png
-    alt: "blogs"
-    title: "Class Deliverables"
-    excerpt: "Students in the class write data science blogs and make dashboards."
-    url: "/blogs/"
+    alt: "projects"
+    title: "Projects"
+    excerpt: "Description of the class projects."
+    url: "/projects/"
     btn_class: "btn--info"
-    btn_label: "Learn more"      
+    btn_label: "Go to projects page"      
 ---
 
 {% include feature_row id="intro" type="center" %}
