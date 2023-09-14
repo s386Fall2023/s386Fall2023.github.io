@@ -51,6 +51,7 @@ In order to ensure that we are all running the same version of python and of the
     - Inside `lab3.py`, you'll find functions with `pass` statements. Replace `pass` with your own code.
     - **Do not** change the names of the functions or the file.
 * *Virtual Environment*: Ensure that you are using the class's virtual environment while working on this assignment.
+    - You are free to include other `.py` or `.ipynb` files with more of your work. However, ensure that `lab3.py` only contains your final code for each function. 
 
 * *Submitting on Gradescope*: 
     - Once you've completed the assignment, go to Gradescope and select your personal homework repository (`https://github.com/s386Fall2023/lab-03-your_user_name`) as the source for your submission.
