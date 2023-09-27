@@ -18,7 +18,7 @@ feature_row:
     url: "/schedule/"
     btn_class: "btn--info"
     btn_label: "Go to schedule page"
-  - image_path: /assets/images/pandas.png
+  - image_path: /assets/images/pandas-small.png
     alt: "labs"
     title: "Weekly Labs"
     excerpt: "Weekly labs designed to help practice the skills we are learning in class."
