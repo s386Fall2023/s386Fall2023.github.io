@@ -30,7 +30,9 @@ A. Use the `/symbols` endpoint to find the currency name of the following three-
 
 Once you have the results of the endpoint, you could set up a loop to find the right currency name.  For example
 ```python
-codes = ['MXN', 'BRL', 'HUF', 'KRW', 'ZAR', 'NZD', 'AED', 'USD]
+codes = ['MXN', 'BRL', 'HUF', 'KRW', 'ZAR', 'NZD', 'AED', 'USD']
+
+# pseudo-code below
 for code in codes:
     if (some condition that looks for code):
         print(currency name)
@@ -52,7 +54,7 @@ B. Use `/timeseries`  endpoint to find the exchange rates for the eight currenci
 Which currencies have the highest positive and highest negative correlations with USD?  
 
 **On the `answers.txt` file report:**
-1. Currency Names (from (A.))
+1. Currency Names from (A.)
 2. The currency with the highest positive correlation with USD and
 3. the corresponding correlation coefficient
 4. The currency with the highest negative correlation with USD and
@@ -76,7 +78,8 @@ as selected by Rotten Tomatoes.
 Your DataFrame should have 140 rows and 5 columns:
 
 | Title | Year | Score | Rank | Category |
-| --------|--------|--------|--------|--------|
+|-------|------|-------|------|----------|
+|*title*|*year*|*score*|*rank*|*category*| 
 
 where 
 - "Title" is the movie title, 
