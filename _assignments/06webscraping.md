@@ -85,7 +85,7 @@ where
 - "Title" is the movie title, 
 - "Year" is the year the movie came out, 
 - "Score" is the tomato meter score (NOT the adjusted score), 
-- "Rank" is the assigned ranking from 1 to 140.
+- "Rank" is the order the movie is listed on the page from 140 down to 1 (so "Running Scared" should have rank=140; "Equilibrium should have rank=139; and so on.)
 - "Category" is the rating category used by Rotten Tomatoes and should be "Certified Fresh", "Fresh", or "Rotten" 
 
 "Title" and "Category" should be type "object". "Year","Score", and "Rank" should be type "int".
